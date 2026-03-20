@@ -18,6 +18,7 @@
 		
 		<!--If range is set to "no": Exact value to match in HEX-- >
 		<value>AA</value>
+        <added for testing>
 --->
 
 <!--CP100-->
