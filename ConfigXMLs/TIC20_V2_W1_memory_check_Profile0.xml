@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<basemem_check_info>
+<!--File format version-->
+<format_ver>FF</format_ver>
+<logger_model>TIC20 V2 W1</logger_model>
+<firmware_version>9.21</firmware_version>
+	<memory_check>
+		<name>CUSTOMISATION STATE</name>
+		<mem_address_hex>0A</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>FE</value>
+	</memory_check>
+	<memory_check>
+		<name>QC PASSCODE</name>
+		<mem_address_hex>0B</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>00</value>
+	</memory_check>
+	<memory_check>
+		<name>BACKUP_PRODUCT_ID</name>
+		<mem_address_hex>20</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>81</value>		
+	</memory_check>
+	<memory_check>
+		<name>STATUS</name>
+		<mem_address_hex>80</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>00</value>		
+	</memory_check>
+	<memory_check>
+		<name>ASTATUS</name>
+		<mem_address_hex>81</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>FF</value>		
+	</memory_check>
+	<memory_check>
+		<name>RTC</name>
+		<mem_address_hex>82</mem_address_hex>
+		<length>4</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>FFFFFFFF</value>		
+	</memory_check>
+	<memory_check>
+		<name>RUN TIME</name>
+		<mem_address_hex>86</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>FFFF</value>		
+	</memory_check>
+	<memory_check>
+		<name>SENSORID</name>
+		<mem_address_hex>01C4</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>02</value>		
+	</memory_check>
+	<memory_check>
+		<name>NUMCALPTS</name>
+		<mem_address_hex>01C5</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>09</value>		
+	</memory_check>
+	<memory_check>
+		<name>TEMPERATURE1</name>
+		<mem_address_hex>01C8</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>07A6</value>		
+	</memory_check>
+	<memory_check>
+		<name>ADCPOINT13</name>
+		<mem_address_hex>01F6</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>0000</value>		
+	</memory_check>
+	<memory_check>
+		<name>TEMPERATURE13</name>
+		<mem_address_hex>01F8</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>0000</value>
+	</memory_check>
+	<memory_check>
+		<name>TABLEID</name>
+		<mem_address_hex>0200</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>00</value>
+	</memory_check>
+	<memory_check>
+		<name>NUMENTRIES</name>
+		<mem_address_hex>0201</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>79</value>
+	</memory_check>
+	<memory_check>
+		<name>TOPVAL</name>
+		<mem_address_hex>0204</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>1900</value>
+	</memory_check>
+	<memory_check>
+		<name>BOTTOMVAL</name>
+		<mem_address_hex>0206</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>F380</value>
+	</memory_check>
+	<memory_check>
+		<name>STEP</name>
+		<mem_address_hex>0208</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>0050</value>
+	</memory_check>
+	<memory_check>
+		<name>STARTUPDELAY</name>
+		<mem_address_hex>0300</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>3C</value>
+	</memory_check>
+	<memory_check>
+		<name>LOGINTERVAL</name>
+		<mem_address_hex>0301</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>06</value>
+	</memory_check>
+	<memory_check>
+		<name>A2_HIGH_TEMP1_THRESHOLD</name>
+		<mem_address_hex>0306</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>0320</value>
+	</memory_check>
+	<memory_check>
+		<name>A2_HIGH_TEMP1_COUNTLIMIT</name>
+		<mem_address_hex>0308</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>00C8</value>
+	</memory_check>
+	<memory_check>
+		<name>A1_HIGH_TEMP2_THRESHOLD</name>
+		<mem_address_hex>030A</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>FFD8</value>
+	</memory_check>
+	<memory_check>
+		<name>A1_HIGH_TEMP2_COUNTLIMIT</name>
+		<mem_address_hex>030C</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>000A</value>
+	</memory_check>
+	<memory_check>
+		<name>A4_LOW_TEMP1_THRESHOLD</name>
+		<mem_address_hex>030E</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>0E10</value>
+	</memory_check>
+	<memory_check>
+		<name>A4_LOW_TEMP1_COUNTLIMIT</name>
+		<mem_address_hex>0310</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>000A</value>
+	</memory_check>
+	<memory_check>
+		<name>A3_LOW_TEMP2_THRESHOLD</name>
+		<mem_address_hex>0312</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>0960</value>
+	</memory_check>
+	<memory_check>
+		<name>A3_LOW_TEMP2_COUNTLIMIT</name>
+		<mem_address_hex>0314</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>0064</value>
+	</memory_check>
+	<memory_check>
+		<name>HIGH_TEMP1_CONTROL</name>
+		<mem_address_hex>0316</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>08</value>
+	</memory_check>
+	<memory_check>
+		<name>HIGH_TEMP2_CONTROL</name>
+		<mem_address_hex>0317</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>E0</value>
+	</memory_check>
+	<memory_check>
+		<name>LOW_TEMP1_CONTROL</name>
+		<mem_address_hex>0318</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>E1</value>
+	</memory_check>
+	<memory_check>
+		<name>LOW_TEMP2_CONTROL</name>
+		<mem_address_hex>0319</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>C1</value>
+	</memory_check>
+	<memory_check>
+		<name>DACONTROL1</name>
+		<mem_address_hex>031A</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>3C</value>
+	</memory_check>
+	<memory_check>
+		<name>DACONTROL2</name>
+		<mem_address_hex>031B</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>EF</value>
+	</memory_check>
+	<memory_check>
+		<name>DISPLAY_ON_TIME</name>
+		<mem_address_hex>031C</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>1E</value>
+	</memory_check>
+	<memory_check>
+		<name>DISPLAY_SCROLL_TIME</name>
+		<mem_address_hex>031D</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>08</value>
+	</memory_check>
+	<memory_check>
+		<name>PROFILE_NUMBER</name>
+		<mem_address_hex>031E</mem_address_hex>
+		<length>2</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>0001</value>
+	</memory_check>
+	<memory_check>
+		<name>PRODUCT_ID</name>
+		<mem_address_hex>0320</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>81</value>
+	</memory_check>
+	<memory_check>
+		<name>MAX_DAYS</name>
+		<mem_address_hex>0321</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>14</value>
+	</memory_check>
+	<memory_check>
+		<name>FORMAT_VER</name>
+		<mem_address_hex>0323</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>FF</value>
+	</memory_check>
+	<memory_check>
+		<name>VERIFICATION_FLAGS</name>
+		<mem_address_hex>0324</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>FF</value>
+	</memory_check>
+	<memory_check>
+		<name>TRIPNUM</name>
+		<mem_address_hex>0380</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>FF</value>
+	</memory_check>
+	<memory_check>
+		<name>BATT_STATUS</name>
+		<mem_address_hex>0381</mem_address_hex>
+		<length>1</length>
+		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-->
+		<big_endian>yes</big_endian>
+		<!--yes, if a range of values is accepted, no, if value has to match exactly-->
+		<range>no</range>
+		<!--Exact value to match in HEX-->
+		<value>FF</value>
+	</memory_check>	
+</basemem_check_info>
+

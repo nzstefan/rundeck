@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Base memory check file for LogTag Report-->
-<!-- examples ---
-	<memory_check>
-		<name>MEM_ADDRESS_NAME</name>
-		<mem_address_hex>10</mem_address_hex>
-		<!--length of value to compare in bytes (1 to 4)-- >
-		<length>1</length>
-		<!--yes, if a multi-byte value is stored in big endian, no, if little endian-- >
-		<big_endian>yes</big_endian>
-		<!--yes, if a range of values is accepted, no, if value has to match exactly-- >
-		<range>yes</range>
-		<!--Minimum value to check in HEX-- >
-		<value_min>00</value_min>
-		<!--Maximum value to check in HEX-- >
-		<value_max>FF</value_max>
-		
-		
-		<!--If range is set to "no": Exact value to match in HEX-- >
-		<value>AA</value>
---->
 
-<!--TRIX-8-->
+
+
+
 <basemem_check_info>
 <!--File format version-->
 <format_ver>06</format_ver>
